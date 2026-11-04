@@ -1,0 +1,8 @@
+{
+  "name": "GAHAN AI - Cybersecurity AI Agent Platform",
+  "description": "Defensive AI Cybersecurity Platform with specialized agents for Web Security, Network Auditing, Vulnerability Intel, Threat Detection, Security Compliance, and Secure Code Refactoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

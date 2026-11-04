@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_default",
+      "name": "GAHAN Owner Admin",
+      "email": "admin@gahan.ai",
+      "passwordHash": "$2b$10$.VWk0YT0Rdz8NOC04Ku4J.XTSPch4emfmV7FpVC3mgP/lfDjU/xsW",
+      "role": "admin",
+      "tier": "enterprise",
+      "createdAt": "2026-11-03T14:12:13.886Z",
+      "trialStartedAt": "2026-11-03T14:12:13.886Z",
+      "trialExpiresAt": "2036-10-31T14:12:13.886Z",
+      "mfaEnabled": false
+    }
+  ],
+  "sessions": [],
+  "usageLogs": [],
+  "subscriptions": [],
+  "models": [
+    {
+      "id": "qwen3-1.7b",
+      "name": "Ollama Qwen3 1.7B (Local)",
+      "provider": "Ollama Local",
+      "enabled": true,
+      "allowedTiers": [
+        "free",
+        "pro",
+        "enterprise"
+      ],
+      "capabilities": [
+        "Zero API Key Required",
+        "Local Privacy",
+        "Cybersecurity Agentic Reasoning",
+        "Code Audit & Remediation"
+      ],
+      "status": "active",
+      "description": "Primary local AI inference engine running locally via Ollama without requiring paid external API keys."
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "provider": "Google Gemini API",
+      "enabled": true,
+      "allowedTiers": [
+        "free",
+        "pro",
+        "enterprise"
+      ],
+      "capabilities": [
+        "Sub-Millisecond Inference",
+        "Standard Chat",
+        "Coding Assistance",
+        "Structured Reasoning"
+      ],
+      "status": "active",
+      "description": "Optional secondary cloud provider model for deep cybersecurity reasoning."
+    }
+  ],
+  "auditLogs": [],
+  "settings": {
+    "defaultFreeDailyLimit": 20,
+    "defaultFreeTrialDays": 7,
+    "proMonthlyLimit": 1000,
+    "enterpriseMonthlyLimit": 10000,
+    "mfaRequiredForAdmin": false
+  }
+}
